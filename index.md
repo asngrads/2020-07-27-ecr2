@@ -9,12 +9,12 @@ country: "us"
 language: "en"
 latitude: "0"
 longitude: "0"
-humandate: "Date"     # (e.g., "Feb 17-18, 2020")
-humantime: "Time"     # (e.g., "9:00 am - 4:30 pm")
-startdate: "Start"    # YYYY-MM-DD
-enddate: "End"        # YYYY-MM-DD
-instructor: ["A", "B"]
-helper: ["C", "D", "E", "F"]
+humandate: "July 27-28, 2020"
+humantime: "9:00 am - 5:00 pm CST"
+startdate: "2020-07-27"
+enddate: "2020-07-28"
+instructor: ["Saber Soleymani", "TBD"]
+helper: ["Mariana Villalba", "Cheyenne Yancey Payne", "Reilly Cooper", "Kevin Amses"]
 host: ["Emma Lehmberg", "Simon Tye"]
 email: ["eslehmberg@tamu.edu","simontye@uark.edu"]
 collaborative_notes: "https://docs.google.com/document/d/16ShDhdB5ZoyWYkgx6VxrG82FzY7sbzLpEgDy3iTydsU/edit?usp=sharing"
@@ -190,6 +190,85 @@ Display the contact email address set in the configuration file.
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">
+{% comment %}
+SETUP
+
+Delete irrelevant sections from the setup instructions.  Each
+section is inside a 'div' without any classes to make the beginning
+and end easier to find.
+
+This is the other place where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+{% endcomment %}
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in a
+  {% if site.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif site.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif site.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+{% if site.carpentry == "swc" %}
+{% include swc/setup.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/setup.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/setup.html %}
+{% endif %}{% comment %}
+SETUP
+
+Delete irrelevant sections from the setup instructions.  Each
+section is inside a 'div' without any classes to make the beginning
+and end easier to find.
+
+This is the other place where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+{% endcomment %}
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in a
+  {% if site.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif site.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif site.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+{% if site.carpentry == "swc" %}
+{% include swc/setup.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/setup.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/setup.html %}
+{% endif %}
 
 {% comment%}
 CODE OF CONDUCT

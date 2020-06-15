@@ -190,6 +190,7 @@ Display the contact email address set in the configuration file.
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">
+
 {% comment %}
 SETUP
 
@@ -205,70 +206,25 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  To participate in this workshop,
+  you will need to do the following:
+  <ol>
+  <li> Install <a href="https://datacarpentry.org/genomics-workshop/setup.html">all software</a> for the Data Carpentry Genomics workshops.
+  <li> Download all data required to complete the workshop. These data are located <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">here</a> and <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">placeholder</a>. These datasets are from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">Tenaillon et al. (2016)</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">placeholder</a>, respectively.</li>
+  <li> Install an up-to-date web browser, such as <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI_tCMyIGF6gIVkMDACh3_QAwBEAAYASAAEgIe7PD_BwE&gclsrc=aw.ds">Chrome</a></li>
+  <li> Install <a href="https://zoom.us">Zoom</a> and <a href="https://slack.com">Slack</a>. The workshop will be broadcast via private Zoom and Slack channels. Links to these channels will be emailed to all applicants two weeks before the event.
+</ol>
 </p>
 
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
+<a href="https://datacarpentry.org/genomics-workshop/">click here</a>
+
+<p>
+  Data Carpentry maintains a <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">list of common issues</a> that occur during installation, which may be helpful for applicants as they install the required software.
+</p>
+
 {% endif %}{% comment %}
-SETUP
 
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
-<h2 id="setup">Setup</h2>
-
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
+<hr style="height:1px;border-width:0;color:black;background-color:black">
 
 {% comment%}
 CODE OF CONDUCT
@@ -368,49 +324,6 @@ please preview your site before committing, and make sure to run
 {% include dc/syllabus.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
-{% endif %}
-
-<hr style="height:1px;border-width:0;color:black;background-color:black">
-
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-
-<h2 id="setup">Setup</h2>
-
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
 {% endif %}
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">

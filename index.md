@@ -214,9 +214,7 @@ please preview your site before committing, and make sure to run
   <li> Install an up-to-date web browser, such as <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI_tCMyIGF6gIVkMDACh3_QAwBEAAYASAAEgIe7PD_BwE&gclsrc=aw.ds">Chrome</a>.</li>
   <li> Install <a href="https://zoom.us">Zoom</a> and <a href="https://slack.com">Slack</a>. The workshop will be broadcast via private Zoom and Slack channels. Links to these channels will be emailed to all applicants two weeks before the event.</li>
 </ol>
-</p>
-<p>
-  Data Carpentry maintains a <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">list of common issues</a> that occur during installation, which may be helpful for applicants as they install the required software.
+Data Carpentry maintains a <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">list of common issues</a> that occur during installation, which may be helpful for applicants as they install the required software.
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">

@@ -131,7 +131,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (<a href="#setup">listed below</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed listed under (<a href="#setup">Setup</a>).
 </p>
 
 {% comment %}
@@ -207,15 +207,14 @@ please preview your site before committing, and make sure to run
 
 <p>
   To participate in this workshop,
-  you will need to do the following:
+  you will need to:
   <ol>
   <li> Install <a href="https://datacarpentry.org/genomics-workshop/setup.html">all software</a> for the Data Carpentry Genomics workshops.
   <li> Download all data required to complete the workshop. These data are located <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">here</a> and <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">placeholder</a>. These datasets are from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">Tenaillon et al. (2016)</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">placeholder</a>, respectively.</li>
   <li> Install an up-to-date web browser, such as <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI_tCMyIGF6gIVkMDACh3_QAwBEAAYASAAEgIe7PD_BwE&gclsrc=aw.ds">Chrome</a></li>
-  <li> Install <a href="https://zoom.us">Zoom</a> and <a href="https://slack.com">Slack</a>. The workshop will be broadcast via private Zoom and Slack channels. Links to these channels will be emailed to all applicants two weeks before the event.
+  <li> Install <a href="https://zoom.us">Zoom</a> and <a href="https://slack.com">Slack</a>. The workshop will be broadcast via private Zoom and Slack channels. Links to these channels will be emailed to all applicants two weeks before the event.</li>
 </ol>
 </p>
-
 <p>
   Data Carpentry maintains a <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">list of common issues</a> that occur during installation, which may be helpful for applicants as they install the required software.
 </p>
@@ -256,7 +255,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Remove this?
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">
@@ -268,7 +267,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Data Carpentry is committed to improving their workshops and encourages all workshop participants to complete these short surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 

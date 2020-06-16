@@ -38,8 +38,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Evolution 2020: Bioinformatics and Command-Line Programming for Beginners"
-
+title: "ECR<sup>2</sup>: Bioinformatics and Command-Line Programming for Beginners Workshop"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).

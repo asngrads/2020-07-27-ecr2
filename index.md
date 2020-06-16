@@ -209,7 +209,7 @@ please preview your site before committing, and make sure to run
   To participate in this workshop,
   you will need to:
   <ol>
-  <li> Install <a href="https://datacarpentry.org/genomics-workshop/setup.html">all software</a> for the Data Carpentry Genomics workshops.
+  <li> Install <a href="https://datacarpentry.org/genomics-workshop/setup.html">all software</a> for the Data Carpentry Genomics workshops.</li>
   <li> Download all data required to complete the workshop. These data are located <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">here</a> and <a href="https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454">placeholder</a>. These datasets are from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">Tenaillon et al. (2016)</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/">placeholder</a>, respectively.</li>
   <li> Install an up-to-date web browser, such as <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI_tCMyIGF6gIVkMDACh3_QAwBEAAYASAAEgIe7PD_BwE&gclsrc=aw.ds">Chrome</a>.</li>
   <li> Install <a href="https://zoom.us">Zoom</a> and <a href="https://slack.com">Slack</a>. The workshop will be broadcast via private Zoom and Slack channels. Links to these channels will be emailed to all applicants two weeks before the event.</li>

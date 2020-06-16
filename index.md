@@ -216,13 +216,9 @@ please preview your site before committing, and make sure to run
 </ol>
 </p>
 
-<a href="https://datacarpentry.org/genomics-workshop/">click here</a>
-
 <p>
   Data Carpentry maintains a <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">list of common issues</a> that occur during installation, which may be helpful for applicants as they install the required software.
 </p>
-
-{% endif %}{% comment %}
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">
 
@@ -242,7 +238,6 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">
-
 
 {% comment %}
 Collaborative Notes

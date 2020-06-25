@@ -13,8 +13,8 @@ humandate: "July 27-28, 2020"
 humantime: "9:00 am - 5:00 pm CST"
 startdate: "2020-07-27"
 enddate: "2020-07-28"
-instructor: ["Saber Soleymani", "TBD"]
-helper: ["Mariana Villalba", "Cheyenne Yancey Payne", "Reilly Cooper", "Kevin Amses"]
+instructor: ["Saber Soleymani", "Wendy Wong"]
+helper: ["Mariana Villalba", "Cheyenne Yancey Payne", "Reilly Cooper", "Kevin Amses", "Matthew Gibson"]
 host: ["Emma Lehmberg", "Simon Tye"]
 email: ["eslehmberg@tamu.edu","simontye@uark.edu"]
 collaborative_notes: "https://docs.google.com/document/d/16ShDhdB5ZoyWYkgx6VxrG82FzY7sbzLpEgDy3iTydsU/edit?usp=sharing"

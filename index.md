@@ -17,7 +17,7 @@ instructor: ["Saber Soleymani", "Wendy Wong"]
 helper: ["Mariana Villalba", "Cheyenne Yancey Payne", "Reilly Cooper", "Kevin Amses", "Matthew Gibson"]
 host: ["Emma Lehmberg", "Simon Tye"]
 email: ["eslehmberg@tamu.edu","simontye@uark.edu"]
-collaborative_notes: "https://docs.google.com/document/d/16ShDhdB5ZoyWYkgx6VxrG82FzY7sbzLpEgDy3iTydsU/edit?usp=sharing"
+collaborative_notes: ""
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}

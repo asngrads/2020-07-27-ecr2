@@ -3,7 +3,6 @@
 
 As part of the Evolution Community Response to Early Career Researchers (ECR<sup>2</sup>) 2020, the American Society of Naturalists (ASN) Graduate Council is hosting a Command-Line Bioinformatics for Beginners Workshop on July 27-28th. This workshop is free to members of ASN, SSE, or SSB. Applicants with no previous experience with bioinformatics tools and/or command-line programming will be prioritized.
 
-
 <p align="center">
   <br>
   <strong>To sign up for this workshop, <a href="https://www.evolutionmeetings.org/register.html">click here</a>.</strong>

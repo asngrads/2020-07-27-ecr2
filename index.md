@@ -13,7 +13,7 @@ humandate: "July 27-28, 2020"
 humantime: "9:00 am - 5:00 pm CST"
 startdate: "2020-07-27"
 enddate: "2020-07-28"
-instructor: ["Saber Soleymani", "Wendy Wong"]
+instructor: ["Saber Soleymani", "Dr. Wendy Wong"]
 helper: ["Mariana Villalba", "Cheyenne Yancey Payne", "Reilly Cooper", "Kevin Amses", "Matthew Gibson"]
 host: ["Emma Lehmberg", "Simon Tye"]
 email: ["eslehmberg@tamu.edu","simontye@uark.edu"]
@@ -131,7 +131,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed listed under (<a href="#setup">Setup</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Software required for this event are described under (<a href="#setup">Setup</a>).
 </p>
 
 {% comment %}
@@ -160,7 +160,7 @@ special instructions.
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. Please
   notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+  anything we can do to make this workshop more accessible to you. We will be providing closed captioning for the Zoom portion of the workshop, and will record and distribute the lectures to applicants that are unable to attend the workshop.
 </p>
 {% endif %}
 
@@ -253,7 +253,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will primarily use Slack and Zoom to collaborate during the workshop. There are dedicated Slack channels for applicants to network and collaborate. Whille we encourage all applicants to take notes throughout the workshop, there is a collaborative notes document <a href="{{ page.collaborative_notes }}">here</a>.
+We will primarily use Slack and Zoom to collaborate during the workshop. There are dedicated Slack channels for applicants to network and collaborate. There is a collaborative notes document <a href="{{ page.collaborative_notes }}">here</a>, however we do encourage all participants to take their own notes as well.
 </p>
 
 <hr style="height:1px;border-width:0;color:black;background-color:black">

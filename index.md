@@ -10,7 +10,7 @@ language: "en"
 latitude: "0"
 longitude: "0"
 humandate: "July 27-28, 2020"
-humantime: "9:00 am - 5:00 pm CST"
+humantime: "9:30 am - 5:00 pm EST"
 startdate: "2020-07-27"
 enddate: "2020-07-28"
 instructor: ["Saber Soleymani", "Dr. Wendy Wong"]
